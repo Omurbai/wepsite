@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    background-image: url(chec.jpg);
+    background-size: cover;
+    max-width: auto;
+    height:1000px;
+}
+li{
+    list-style: none;
+}
+
+.container{
+    width: auto;
+    margin: 0 auto;
+}
+
+.counter__btn{
+    background: red;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 13px;
+    border-radius: 20px;
+}
+.counter__value{
+    height: 39px;
+    width: 81px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 18px;
+    border-radius:10px ;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 175px;
+    margin-top: -65px;
+}
+
+.counter{
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid ;
+    height: 149px;
+    width: 120px;
+    background: #0fa3b1;
+    
+}
+#firstip {
+    background: blue;
+    height: 51px;
+    width: 55px;
+    margin-left: 31px;
+    position: absolute;
+    margin-top: 18px;
+    border-radius: 50px;
+    border: 1px solid;
+}
+#firstip1 {
+    background: black;
+    border-radius: 40px;
+    margin-left: 96px;
+    margin-top: 14px;
+    height: 17px;
+    width: 8px;
+}
+input{
+    font-size: 25px;
+    font-weight: 0;
+    font-family:fantasy;
+}
+
+/*  */
+h1 {
+    
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 22px;
+    letter-spacing: 0px;text-decoration: underline 6px;
+}
+
+
+/* KING */
+
+.king{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+li {
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px;
+    border-radius: 30px;
+    height: 50px;
+    border: 2px solid  ;
+    font-size: 20px;
+    font-weight: 200;
+    background: black;
+    width: 500px;
+    
+ 
+    
+}
+li:hover{
+    background: red;
+    transition: 0.3s;
+    color: black;
+}
+
+
+@media screen and (max-width: 414px) {
+    li {
+      width: 300px;
+      
+    }
+     h1 {
+        width: 314px;
+        margin-left: 90px;
+        text-decoration: none;
+    }
+  }
+
+  
+  
